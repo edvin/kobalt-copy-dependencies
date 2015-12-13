@@ -1,0 +1,7 @@
+<kobalt-plugin>
+    <name>copy-dependencies</name>
+    <factory-class-name>com.beust.kobalt.internal.GuiceFactory</factory-class-name>
+    <plugin-actors>
+        <class-name>no.tornado.kobalt.plugin.copydeps.CopyDependenciesPlugin</class-name>
+    </plugin-actors>
+</kobalt-plugin>
