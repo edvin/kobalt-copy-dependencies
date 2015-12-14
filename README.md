@@ -5,7 +5,7 @@ This plugin will copy all dependencies to the `kotlinBuild/libs` folder when you
 
 Usage:
 
-    dependencies {
-      compile("no.tornado:kobalt-copy-dependencies:0.2")
-    }
+    
+    val p = plugins("no.tornado:kobalt-copy-dependencies:0.2")
+    
   
